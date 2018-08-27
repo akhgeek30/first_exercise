@@ -1,27 +1,42 @@
 .head{
-	display:flex;
+	display: flex;
 }
-.logo { width:15%;
-		height:15%; 
-		flex:2;
-		margin-top: 0px;
-
-	}
-.heading {
-	font-family: sans-serif;
+.logo{
+	flex: 2;
+	width:15%;
+	height:15%;
+}
+.heading{
+	flex:10;
 	font-size:100px;
 	text-align: center;
-	margin-top: 0px;
-	padding-top: 0px;
-	flex:10;
+	margin: 50px 0px 0px;
+	font-family: arial;
+	color:  #1a5276 ;
 }
-.body{
-	margin:0px;
+.det li{
+	flex:1;
+	list-style:none;
+	display: inline;
+	padding-right: 5px;
+}
+.gen ul{
+	display:flex;
+}
+.genre li{
+	display: inline;
+	padding-right: 2px;
 }
 .hero{
-	width:100%;
+	width: 100%
 }
-.details {
-	display: inline;
+li{
 	list-style: none;
+}
+.container{
+	display:flex;
+}
+.box1{
+	flex:1;
+	padding-left:0px;
 }
