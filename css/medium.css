@@ -44,6 +44,7 @@
 		width:100%;
 		flex-direction: row;
 		align-items: center;
+		flex-wrap: wrap;
 	}
 	.b1{
 		flex: 1;
@@ -54,13 +55,17 @@
 		height:100px;
 	}
 	.b2{ width:100%;
-		flex:3;
+		flex:1	;
 		font-size:40px;
 	}
 	.b3{
 		flex:1;
+
 	}
 	.container{
+		flex-wrap:wrap;
+	}
+	.genre{
 		flex-wrap:wrap;
 	}
 }
