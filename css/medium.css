@@ -36,6 +36,9 @@
 		flex-direction: column;
 		align-items: center;
 	}
+	h3{
+		display:none;
+	}
 	.box1 img{
 		width:100%;
 	}
@@ -80,5 +83,9 @@
 	.container{
 		flex-direction: column;
 		flex-wrap:wrap;
+	}
+	
+	h3{
+		display:none;
 	}
 }
