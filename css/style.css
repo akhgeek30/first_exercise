@@ -22,6 +22,9 @@
 }
 a{text-decoration: none;
 color:black;}
+h3{
+	display:none;
+}
 
 li{
 	flex:1;
